@@ -52,7 +52,6 @@ export function Experiments() {
         "Real-world CRUD operations",
       ],
       tags: ["PHP", "MySQL", "Full-stack", "Web App"],
-      demoUrl: "https://your-demo-url.com",
       githubUrl: "https://github.com/yourusername/doctor-appointment",
     },
   ]
