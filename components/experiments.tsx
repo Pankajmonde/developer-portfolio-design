@@ -38,7 +38,7 @@ export function Experiments() {
         "Architected backend agent lifecycle management with Node.js/Express, incorporating token generation (JWT) and automatic session cleanup for inactive agents",
       ],
       tags: ["React", "Node.js", "TypeScript", "Gemini API", "Stream Chat SDK", "Express", "Tavily API"],
-      demoUrl: "https://realtimechatassistant-e6x1m1ejp-pankajmondes-projects.vercel.app/",
+      demoUrl: "https://realtimechatassistant.vercel.app/",
       githubUrl: "https://github.com/Pankajmonde/ai-chat",
     },
     {
