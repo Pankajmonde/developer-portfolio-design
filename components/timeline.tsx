@@ -1,7 +1,7 @@
 export function Timeline() {
   const events = [
     {
-      period: "2025",
+      period: " July 2026",
       role: "Software Development Program",
       organization: "EduBridge · Capgemini · SAP",
       activities: [
@@ -14,7 +14,7 @@ export function Timeline() {
       ],
     },
     {
-      period: "2025",
+      period: "2026",
       role: "Hiring Assessment Preparation Course",
       organization: "EduBridge · Capgemini · SAP",
       grade: "87% · Grade A",
