@@ -53,7 +53,7 @@ export function Footer() {
                   <span>direct_email</span>
                 </a>
                 <a
-                  href="https://drive.google.com/file/d/1jlmGhgT6OSIFmTj3Nlat_lIvUX7B7L1B/view?usp=sharing"
+                  href="https://drive.google.com/file/d/13JceNlZkmapu5ntEKucYOIIFqllrgCEB/view?usp=sharing"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex items-center gap-2.5 px-6 py-3 rounded-md bg-primary text-primary-foreground hover:bg-primary/90 transition-all duration-200 font-mono text-sm font-bold shadow-sm"
