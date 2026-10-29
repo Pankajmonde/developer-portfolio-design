@@ -13,7 +13,48 @@ interface Project {
 export function Experiments() {
   const projects: Project[] = [
     {
-      id: "EXP_001",
+       id: "EXP_001",
+      title: "GeminiStream",
+      description: "Real-Time AI Writing Assistant & Chat Platform.",
+      highlights: [
+        "Built a full-stack real-time chat application integrating Stream Chat SDK for instant messaging, user presence tracking, and custom indicator events",
+        "Implemented an agentic AI assistant using the Google Gen AI SDK (Gemini) to act as a collaborative writing coach inside chat channels",
+        "Integrated live web search grounding via Tavily API, enabling the AI agent to dynamically query external sources and synthesize up-to-date responses",
+        "Architected backend agent lifecycle management with Node.js/Express, incorporating token generation (JWT) and automatic session cleanup for inactive agents",
+      ],
+      tags: ["React", "Node.js", "TypeScript", "Gemini API", "Stream Chat SDK", "Express", "Tavily API"],
+      demoUrl: "https://realtimechatassistant.vercel.app/",
+      githubUrl: "https://github.com/Pankajmonde/ai-chat",
+    },
+    {
+      id: "EXP_002",
+      title: "UPI Without Internet",
+      description:
+        "Mesh-routed offline payment network simulator built with Spring Boot, demonstrating secure packet delivery, duplicate prevention, and deferred transaction settlement.",
+      highlights: [
+        "Built a Spring Boot simulator for offline payment delivery through a Bluetooth-style mesh network and an internet-connected bridge",
+        "Implemented hybrid encryption using RSA-OAEP and AES-256-GCM to protect payment payloads and detect tampering",
+        "Developed atomic duplicate-packet detection using SHA-256 hashes and ConcurrentHashMap.putIfAbsent, with transactional settlement and optimistic locking",
+        "Created an interactive dashboard for mesh visualization, account balances, transaction tracking, and activity logs, with tests for concurrent duplicate delivery and tampered packets",
+      ],
+      tags: [
+        "Java 17",
+        "Spring Boot",
+        "Spring Data JPA",
+        "Hibernate",
+        "H2",
+        "Thymeleaf",
+        "RSA-OAEP",
+        "AES-256-GCM",
+        "Maven",
+        "Docker",
+        "Render",
+      ],
+      demoUrl: "https://upi-without-internet-lskg.onrender.com/",
+      githubUrl: "https://github.com/Pankajmonde/UPI-without-internet",
+    },
+    {
+     id: "EXP_003",
       title: "CardioAI",
       description: "Full-stack machine learning web application analyzing heart sound recordings (Phonocardiogram/PCG signals) to screen for cardiovascular pathological abnormalities.",
       highlights: [
@@ -28,21 +69,7 @@ export function Experiments() {
       githubUrl: "https://github.com/Pankajmonde/cardiovascular-disease-classfication",
     },
     {
-      id: "EXP_002",
-      title: "GeminiStream",
-      description: "Real-Time AI Writing Assistant & Chat Platform.",
-      highlights: [
-        "Built a full-stack real-time chat application integrating Stream Chat SDK for instant messaging, user presence tracking, and custom indicator events",
-        "Implemented an agentic AI assistant using the Google Gen AI SDK (Gemini) to act as a collaborative writing coach inside chat channels",
-        "Integrated live web search grounding via Tavily API, enabling the AI agent to dynamically query external sources and synthesize up-to-date responses",
-        "Architected backend agent lifecycle management with Node.js/Express, incorporating token generation (JWT) and automatic session cleanup for inactive agents",
-      ],
-      tags: ["React", "Node.js", "TypeScript", "Gemini API", "Stream Chat SDK", "Express", "Tavily API"],
-      demoUrl: "https://realtimechatassistant.vercel.app/",
-      githubUrl: "https://github.com/Pankajmonde/ai-chat",
-    },
-    {
-      id: "EXP_003",
+      id: "EXP_004",
       title: "Doctor Appointment Management System",
       description: "Full-stack transactional system with workflow-based architecture.",
       highlights: [
