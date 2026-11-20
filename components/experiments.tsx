@@ -26,33 +26,31 @@ export function Experiments() {
       demoUrl: "https://realtimechatassistant.vercel.app/",
       githubUrl: "https://github.com/Pankajmonde/ai-chat",
     },
-    {
-      id: "EXP_002",
-      title: "UPI Without Internet",
-      description:
-        "Mesh-routed offline payment network simulator built with Spring Boot, demonstrating secure packet delivery, duplicate prevention, and deferred transaction settlement.",
-      highlights: [
-        "Built a Spring Boot simulator for offline payment delivery through a Bluetooth-style mesh network and an internet-connected bridge",
-        "Implemented hybrid encryption using RSA-OAEP and AES-256-GCM to protect payment payloads and detect tampering",
-        "Developed atomic duplicate-packet detection using SHA-256 hashes and ConcurrentHashMap.putIfAbsent, with transactional settlement and optimistic locking",
-        "Created an interactive dashboard for mesh visualization, account balances, transaction tracking, and activity logs, with tests for concurrent duplicate delivery and tampered packets",
-      ],
-      tags: [
-        "Java 17",
-        "Spring Boot",
-        "Spring Data JPA",
-        "Hibernate",
-        "H2",
-        "Thymeleaf",
-        "RSA-OAEP",
-        "AES-256-GCM",
-        "Maven",
-        "Docker",
-        "Render",
-      ],
-      demoUrl: "https://upi-without-internet-lskg.onrender.com/",
-      githubUrl: "https://github.com/Pankajmonde/UPI-without-internet",
-    },
+   {
+  "id": "EXP_002",
+  "title": "URL Shortener",
+  "description": "Production-ready Spring Boot microservice for shortening long URLs with collision-resistant code generation, idempotent creation, and automatic redirects, deployed on Render with cloud-portable database configuration.",
+  "highlights": [
+    "Built a Spring Boot web app with Thymeleaf UI where users shorten URLs and get unique 6-character Base62 codes generated via SecureRandom with a retry-loop collision guard",
+    "Implemented idempotent URL creation — duplicate long URLs return the existing short code instead of creating redundant database rows, using a unique-constraint-backed lookup",
+    "Configured environment-variable-driven database settings (DB_URL, DB_USERNAME, DB_PASSWORD, DB_DIALECT) for seamless local MySQL development and zero-code cloud PostgreSQL deployment on Render",
+    "Delivered responsive single-page interface with dynamic result display, one-click copy-to-clipboard, and validation-driven error handling on the form"
+  ],
+  "tags": [
+    "Java 17",
+    "Spring Boot",
+    "Spring Data JPA",
+    "Hibernate",
+    "MySQL",
+    "PostgreSQL",
+    "Thymeleaf",
+    "Gradle",
+    "Render",
+    "Git"
+  ],
+  "demoUrl": "https://url-shortener.onrender.com/",
+  "githubUrl": "https://github.com/Pankajmonde/Url-Shortner"
+},
     {
      id: "EXP_003",
       title: "CardioAI",
